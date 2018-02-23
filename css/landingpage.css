@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* intro */
+.box1{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background:url('../img/bike1.jpg') no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box2{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background:url('../img/bike2.jpg') no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box3{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background:url('../img/bike3.jpg') no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.content{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h1{
+  font-family: 'Raleway', sans-serif;
+  color: #f9f3f4;
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 900%;
+}
+
+.button2 {
+  border-radius: 9px;
+  font-family: 'Oswald', sans-serif;
+  color: rgba(255,255,255,255);
+  font-size: 250%;
+  padding: 10px 20px;
+  border: solid #ffffff 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.2);
+}
